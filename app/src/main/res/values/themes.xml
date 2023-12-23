@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Android_Bootcamp_day_1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Style for Calculator Buttons -->
+    <style name="Button_Style" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="backgroundTint">@color/almostBlack</item>
+    </style>
+
+    <style name="Theme.Android_Bootcamp_day_1" parent="Base.Theme.Android_Bootcamp_day_1" />
+</resources>
